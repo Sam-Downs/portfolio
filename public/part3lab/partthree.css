@@ -1,0 +1,280 @@
+#container {
+  display: flex;
+  padding: 1em;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 255, 255, 1) 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#0d6cdd",GradientType=1);
+}
+
+#header-logo {
+  width: 200px;
+  height: 200px;
+  padding: 1em;
+}
+
+#nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+#nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+#nav a:hover {
+  background: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1em;
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
+#nav li {
+  display: flex;
+  justify-content: center;
+  border: 3px outset black;
+  background-color: rgb(0, 255, 255);
+  padding: 0.5em;
+  max-width: 100%;
+  width: 84vw;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(0, 255, 255);
+  background: -moz-linear-gradient(0deg, rgba(0, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%);
+  background: -webkit-linear-gradient(0deg, rgba(0, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%);
+  background: linear-gradient(0deg, rgba(0, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffff",endColorstr="#ffffff",GradientType=1);
+}
+
+#footer ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  width: 84vw;
+  padding: 0.5em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+#columnone {
+  width: 30vw;
+  padding: 2em;
+  height: auto;
+}
+
+#portrait {
+  width: 100%;
+  height: 100%;
+}
+
+#columntwo {
+  width: 70vw;
+  height: auto;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+#flexitem2 li {
+  text-decoration: none;
+  list-style-type: none;
+  background: none;
+  border: none;
+  padding: 0.5em;
+}
+
+#flexitem3 {
+  display: flex;
+  width: 25%;
+  height: auto;
+  padding: 0.5em;
+  justify-content: center;
+}
+
+#test {
+  display: flex;
+  align-items: center;
+  font-size: 100%;
+  width: 70%;
+  margin: 0%;
+}
+
+#flexitem1 {
+  display: flex;
+  align-items: center;
+}
+
+#flexitem2 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#flexitem4 {
+  display: flex;
+  align-items: center;
+}
+
+#right {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+#right p {
+  display: flex;
+  padding: 1em;
+  margin: 0%;
+}
+
+@media screen and (max-width: 2500px) {
+  main {
+    font-size: 1.5em;
+  }
+
+  #columntwo {
+    font-size: 125%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #flex {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  #nav a:hover {
+    background-color: #1565c0;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #columnone {
+    width: 88vw;
+  }
+
+  #columntwo {
+    width: 88vw;
+  }
+
+  #columntwo h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #columntwo p {
+    display: flex;
+    justify-content: center;
+  }
+
+  #flex nav {
+    order: 1;
+  }
+
+  #flex header {
+    order: 2;
+  }
+
+  #flex main {
+    order: 4;
+  }
+
+  #flex footer {
+    order: 5;
+  }
+
+  #test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #columnone {
+    width: 88vw;
+  }
+
+  #columntwo {
+    width: 88vw;
+  }
+
+  #columntwo h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #columntwo p {
+    display: flex;
+    justify-content: center;
+  }
+
+  #flex nav {
+    order: 1;
+  }
+
+  #flex header {
+    order: 2;
+  }
+
+  #flex main {
+    order: 4;
+  }
+
+  #flex footer {
+    order: 5;
+  }
+
+  #test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #flexitem2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}

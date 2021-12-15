@@ -1,0 +1,54 @@
+header {
+  border: dashed black;
+  background-color: aqua;
+  color: black;
+}
+
+a:link {
+  color: aqua;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 20vh;
+  background-image: url(jumbo.png);
+  color: aqua;
+}
+
+.map {
+  background-color: rgb(192, 79, 149);
+  color: black;
+}
+
+footer {
+  background-color: rgb(22, 13, 51);
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu {
+  background-color: orange;
+  color: rgb(56, 37, 2);
+}
+
+#itemone {
+  background-color: rgb(29, 145, 240);
+}
+
+#itemtwo {
+  background-color: yellow;
+}
+
+#itemthree {
+  background-color: green;
+}
+
+#itemfour {
+  background-color: purple;
+}
+
+#itemfive {
+  background-color: red;
+}

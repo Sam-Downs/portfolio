@@ -1,0 +1,17 @@
+h1 {
+  color: rgb(20, 217, 220);
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(11, 15, 22);
+  color: rgb(20, 217, 220);
+}
+
+
+#para2 {
+  color: darkgreen;
+}

@@ -1,0 +1,189 @@
+body {
+  background-color: #bec7c7;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus,
+nav a:hover,
+nav a:active {
+  color: black;
+  background-color: #3eb595;
+  display: block;
+  padding: 0.5em;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.responsiveImg {
+  width: 100%;
+  height: auto;
+}
+
+.responsiveImgTwo {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+}
+
+#one img {
+  border-radius: 50%;
+}
+
+#two {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#action a:hover a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  background-color: #3eb595;
+}
+
+#action a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+#action div {
+  order: 1;
+  padding-left: 0;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#topleft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#topmid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#topright {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  width: 75vw;
+  order: 1;
+}
+
+nav {
+  width: 50vw;
+  order: 2;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  #one {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #two div {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  h1 {
+    width: 75vw;
+    order: 1;
+  }
+
+  nav {
+    justify-content: flex-end;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #two {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    flex-wrap: nowrap;
+  }
+  
+  #action div {
+    justify-content: flex-end;
+    order: 2;
+    padding-left: 0;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 50%;
+    display: flex;
+  }
+
+  #action p {
+    width: 30vw;
+  }
+
+  #ll {
+    padding: 1em;
+  }
+
+  #l {
+    padding: 1em;
+  }
+
+  #r {
+    padding: 1em;
+  }
+
+  #rr {
+    padding: 1em;
+  }
+}

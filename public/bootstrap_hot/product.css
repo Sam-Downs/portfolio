@@ -1,0 +1,18 @@
+.bgone {
+  background-image: url("jumbotronsale2.jpg");
+  background-color: #cccccc;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.shadow {
+  text-shadow: 2px 2px black, 3px 3px black;
+}
+
+.shadow a {
+  text-shadow: 1px 1px black;
+}

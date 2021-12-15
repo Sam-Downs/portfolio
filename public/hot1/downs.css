@@ -1,0 +1,22 @@
+h1 {
+  color: #dc003f;
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #00003f;
+  color: #dc003f;
+}
+
+bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+footer {
+  color: #dc003f;
+}
